@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: rgb(0,0,33);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(18,18,62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: rgb(153,153,226);
+    font-size: 1.01rem;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: 50px;
+}
+
+.secondSection h1{
+    font-size: 1.7rem;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.timeline {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.timeline-content {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.timeline-date {
+    font-size: 14px;
+    color: #666;
+}
+
+.timeline h3 {
+    margin-top: 0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanuj - Developer Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tanuj's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Tanuj</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">
+                        <a href="Resume.pdf" target="_blank">Download Resume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/tanujgupta18" target="_blank">Github</a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/bg.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/HTML.webp" alt="">                    
+                    <div class="vertical-title">HTML Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur reprehenderit iusto?</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/CSS.svg" alt="">                    
+                    <div class="vertical-title">CSS Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur reprehenderit iusto?</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/JS.webp" alt="">                    
+                    <div class="vertical-title">JavaScript Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur reprehenderit iusto?</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/Python.webp" alt="">                    
+                    <div class="vertical-title">Python Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur reprehenderit iusto?</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img/django.webp" alt="">                    
+                    <div class="vertical-title">Django Developer</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem tenetur reprehenderit iusto?</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python Developer','Django Developer'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+</body>
+
+</html>
