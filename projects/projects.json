@@ -1,0 +1,172 @@
+[
+  {
+    "name": "Fashion Website Scraper",
+    "desc": "Developed a Django scraper for extracting images, prices, and descriptions from fashion websites.",
+    "image": "Fashion_scraper",
+    "category": "django",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Fashion-Website-Scraper"
+    }
+  },
+  {
+    "name": "PDF Password Cracker",
+    "desc": "A Python script to unlock password-protected PDF files, enabling access to encrypted documents.",
+    "image": "webuiclones",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/PDF%20Password%20Cracker"
+    }
+  },
+  {
+    "name": "Myntra Website Clone",
+    "desc": "This project clones the Myntra website to replicate its interface and functionality for learning purposes.",
+    "image": "Myntra",
+    "category": "clone",
+    "links": {
+      "view": "https://tanujgupta18.github.io/Myntra-Website-Clone/",
+      "code": "https://github.com/tanujgupta18/Myntra-Website-Clone"
+    }
+  },
+  {
+    "name": "Gas Utility Services",
+    "desc": "Developed a Django-based Gas Utility Services project to manage billing, customer management, and service tracking.",
+    "image": "Gas",
+    "category": "django",
+    "links": {
+      "view": "https://tanujgupta.pythonanywhere.com/",
+      "code": "https://github.com/tanujgupta18/Gas-Utility-Services"
+    }
+  },
+  {
+    "name": "User Authentication",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "User_auth",
+    "category": "django",
+    "links": {
+      "view": "https://tanuj123.pythonanywhere.com/",
+      "code": "https://github.com/tanujgupta18/User-Authentication"
+    }
+  },
+  {
+    "name": "JavaScript Projects Website",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://tanujgupta18.github.io/JavaScript-Projects",
+      "code": "https://github.com/tanujgupta18/JavaScript-Projects"
+    }
+  },
+  {
+    "name": "Calculator",
+    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
+    "image": "Calculator",
+    "category": "django",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Django-Projects/tree/main/Calculator%20Application"
+    }
+  },
+  {
+    "name": "Employee Management",
+    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "image": "Employee",
+    "category": "django",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Employee-Management-System"
+    }
+  },
+  {
+    "name": "Weather Application",
+    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "image": "weather",
+    "category": "django",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Weather-Detector"
+    }
+  },
+  {
+    "name": "Banking System",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "banking",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Banking%20System"
+    }
+  },
+  {
+    "name": "Digital Clock",
+    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "image": "digital_clock",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Digital%20Clock"
+    }
+  },
+  {
+    "name": "Expense Tracker",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "Expense",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Expense%20Tracker"
+    }
+  },
+  {
+    "name": "Internet Speed Meter",
+    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "image": "Internet_speed",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Internet%20Speed%20Meter"
+    }
+  },
+  {
+    "name": "Blog Application",
+    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "image": "Blog",
+    "category": "django",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Blog-Application"
+    }
+  },
+  {
+    "name": "Number Guessing Game",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Number%20Guessing%20Game"
+    }
+  },
+  {
+    "name": "Screen and Webcam Recorder",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Screen%20and%20Webcam%20Recorder"
+    }
+  },
+  {
+    "name": "Keyword Internal Linking",
+    "desc": "Developed Python script utilizing Google Custom Search Engine API to perform keyword searches on specified domain, fetching URLs and updating Google Sheets with results.",
+    "image": "",
+    "category": "scraping",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Keyword-Internal-Linking"
+    }
+  }
+]
