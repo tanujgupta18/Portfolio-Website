@@ -10,13 +10,33 @@
     }
   },
   {
-    "name": "PDF Password Cracker",
-    "desc": "A Python script to unlock password-protected PDF files, enabling access to encrypted documents.",
-    "image": "webuiclones",
-    "category": "python",
+    "name": "Spotify Player Clone",
+    "desc": "Spotify clone using React and Tailwind CSS for music streaming.",
+    "image": "spotify_clone",
+    "category": "react",
     "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/PDF%20Password%20Cracker"
+      "view": "https://spotifyapplication.netlify.app/",
+      "code": "https://github.com/tanujgupta18/Spotify-Player-Clone"
+    }
+  },
+  {
+    "name": "JavaScript Projects Website",
+    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://tanujgupta18.github.io/JavaScript-Projects",
+      "code": "https://github.com/tanujgupta18/JavaScript-Projects"
+    }
+  },
+  {
+    "name": "Firebase Contact App",
+    "desc": "A contact management application built with React, Firebase, and Tailwind CSS. Features include real-time contact addition, viewing, editing, and deletion.",
+    "image": "contact_app",
+    "category": "react",
+    "links": {
+      "view": "https://contactsapplication.netlify.app/",
+      "code": "https://github.com/tanujgupta18/Firebase-Contact-App"
     }
   },
   {
@@ -40,6 +60,16 @@
     }
   },
   {
+    "name": "PDF Password Cracker",
+    "desc": "A Python script to unlock password-protected PDF files, enabling access to encrypted documents.",
+    "image": "webuiclones",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/PDF%20Password%20Cracker"
+    }
+  },
+  {
     "name": "User Authentication",
     "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
     "image": "User_auth",
@@ -49,16 +79,7 @@
       "code": "https://github.com/tanujgupta18/User-Authentication"
     }
   },
-  {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "jspro",
-    "category": "basicweb",
-    "links": {
-      "view": "https://tanujgupta18.github.io/JavaScript-Projects",
-      "code": "https://github.com/tanujgupta18/JavaScript-Projects"
-    }
-  },
+
   {
     "name": "Calculator",
     "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
