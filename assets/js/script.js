@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["Python development", "web development", "Django Developer"],
+  strings: ["Python development", "Django Developer","ReactJs Developer"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
