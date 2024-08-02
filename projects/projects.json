@@ -31,7 +31,7 @@
   },
   {
     "name": "Firebase Contact App",
-    "desc": "A contact management application built with React, Firebase, and Tailwind CSS. Features include real-time contact addition, viewing, editing, and deletion.",
+    "desc": "Contact management app using React, Firebase, and Tailwind CSS with real-time contact addition, viewing, editing, and deletion.",
     "image": "contact_app",
     "category": "react",
     "links": {
