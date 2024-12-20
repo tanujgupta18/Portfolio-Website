@@ -62,7 +62,6 @@ header {
 }
 
 section {
-  /* min-height: 100vh; */
   padding: 2rem 9%;
 }
 
@@ -186,7 +185,6 @@ header .navbar ul li a:hover {
 
 /* work section starts */
 .work {
-  /* background: #010124; */
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
 }
@@ -293,12 +291,12 @@ header .navbar ul li a:hover {
 }
 
 .work .desc p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .work .desc .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin-top: 2rem;
 }
