@@ -74,7 +74,6 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
-  /* min-height: 100vh; */
   padding: 2rem 9%;
 }
 .heading {
@@ -91,9 +90,13 @@ header .logo {
   font-weight: 800;
   text-decoration: none;
   color: #0e2431;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-header .logo i {
-  font-size: 2.2rem;
+header .logo img {
+  width: 30px;
+  height: 35px;
 }
 header .logo:hover {
   color: #fc8c05;
@@ -319,7 +322,7 @@ header .navbar ul li a:hover {
   background-color: #070707;
 }
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
 }
 /* social icons end */
 
@@ -663,12 +666,12 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  height: 35rem;
 }
 .work .box-container .box img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .work .box-container .box .content {
   height: 100%;
@@ -694,22 +697,23 @@ header .navbar ul li a:hover {
   font-size: 2rem;
 }
 .work .box-container .box:hover .content {
-  top: 25%;
+  top: 35%;
+  background-color: white;
 }
 .work .desc {
-  margin: 2rem;
+  margin: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .work .desc p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 .work .desc .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 .work .desc .btns .btn {
   line-height: 0;
@@ -961,6 +965,9 @@ header .navbar ul li a:hover {
 .contact .content form {
   width: 45%;
   margin-right: 3.5rem;
+}
+#contact-form * {
+  text-transform: none !important;
 }
 form .form-group {
   display: flex;
