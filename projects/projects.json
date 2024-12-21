@@ -1,12 +1,32 @@
 [
   {
+    "name": "LinkedIn Data Export",
+    "desc": "Created a Chrome Extension that automates LinkedIn job applications, captures applicant details, and enables easy export to Excel/CSV.",
+    "image": "linkedIn",
+    "category": "javascript",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/linkedin-data-export/lhbfmcaikiojaojldlkkmfdieaakapgd",
+      "code": ""
+    }
+  },
+  {
     "name": "Fashion Website Scraper",
     "desc": "Developed a Django scraper for extracting images, prices, and descriptions from fashion websites.",
     "image": "Fashion_scraper",
     "category": "django",
     "links": {
-      "view": "",
+      "view": "https://fashionwebsitescraper.pythonanywhere.com/",
       "code": "https://github.com/tanujgupta18/Fashion-Website-Scraper"
+    }
+  },
+  {
+    "name": "HubSpot Forms Exporter",
+    "desc": "Developed an extension that converts HubSpot form submissions to PDFs with customizable exports.",
+    "image": "hubspot",
+    "category": "javascript",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/hubspot-form-submissions/pjiocddnjdodoecdgdmpfhighlbanfjp",
+      "code": ""
     }
   },
   {
@@ -23,10 +43,20 @@
     "name": "JavaScript Projects Website",
     "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
     "image": "jspro",
-    "category": "basicweb",
+    "category": "javascript",
     "links": {
-      "view": "https://tanujgupta18.github.io/JavaScript-Projects",
+      "view": "https://js-projectss.netlify.app/",
       "code": "https://github.com/tanujgupta18/JavaScript-Projects"
+    }
+  },
+  {
+    "name": "SiteToSheet",
+    "desc": "SiteToSheet is a Python Flask app that fetches indexed URLs from a website using the Google Custom Search API and saves them to Google Sheets securely.",
+    "image": "siteToSearch",
+    "category": "python",
+    "links": {
+      "view": "https://sitetosheet.onrender.com/",
+      "code": "https://github.com/tanujgupta18/SiteToSheet"
     }
   },
   {
@@ -43,15 +73,25 @@
     "name": "Myntra Website Clone",
     "desc": "This project clones the Myntra website to replicate its interface and functionality for learning purposes.",
     "image": "Myntra",
-    "category": "clone",
+    "category": "javascript",
     "links": {
       "view": "https://tanujgupta18.github.io/Myntra-Website-Clone/",
       "code": "https://github.com/tanujgupta18/Myntra-Website-Clone"
     }
   },
   {
+    "name": "Dice Game",
+    "desc": "A simple React dice game where you select a number, roll a dice, and earn or lose points based on whether your selected number matches the dice roll.",
+    "image": "dice_game",
+    "category": "react",
+    "links": {
+      "view": "https://dicegeme.netlify.app",
+      "code": "https://github.com/tanujgupta18/Dice-game"
+    }
+  },
+  {
     "name": "Gas Utility Services",
-    "desc": "Developed a Django-based Gas Utility Services project to manage billing, customer management, and service tracking.",
+    "desc": "The Gas Utility Services Web Application lets users submit complaints, track their status, and pay charges through generated invoices, requiring registration or login for access.",
     "image": "Gas",
     "category": "django",
     "links": {
@@ -62,7 +102,7 @@
   {
     "name": "PDF Password Cracker",
     "desc": "A Python script to unlock password-protected PDF files, enabling access to encrypted documents.",
-    "image": "webuiclones",
+    "image": "",
     "category": "python",
     "links": {
       "view": "",
@@ -70,8 +110,48 @@
     }
   },
   {
+    "name": "Keyword Internal Linking",
+    "desc": "Developed Python script utilizing Google Custom Search Engine API to perform keyword searches on specified domain, fetching URLs and updating Google Sheets with results.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Keyword-Internal-Linking"
+    }
+  },
+  {
+    "name": "QR Code Generator",
+    "desc": "This Python script generates QR codes for a given URL using the qrcode library for QR code generation.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/QR%20Code%20Generator"
+    }
+  },
+  {
+    "name": "URL Shortner",
+    "desc": "This Python script shortens a long URL using the pyshorteners library.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/URL%20Shortener"
+    }
+  },
+  {
+    "name": "WhatsApp Message Scheduler",
+    "desc": "This Python script allows you to schedule WhatsApp messages to be sent at a specific time using the pywhatkit library.",
+    "image": "",
+    "category": "python",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/WhatsApp%20Message%20Scheduler"
+    }
+  },
+  {
     "name": "User Authentication",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "This project is a Django application focused on user authentication, providing secure registration, login, logout, and password reset functionality.",
     "image": "User_auth",
     "category": "django",
     "links": {
@@ -79,20 +159,9 @@
       "code": "https://github.com/tanujgupta18/User-Authentication"
     }
   },
-
-  {
-    "name": "Calculator",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-    "image": "Calculator",
-    "category": "django",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Django-Projects/tree/main/Calculator%20Application"
-    }
-  },
   {
     "name": "Employee Management",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
+    "desc": "The Employee Management System is a Django-based web application that streamlines employee information management, including details, attendance, leaves, and more.",
     "image": "Employee",
     "category": "django",
     "links": {
@@ -101,8 +170,18 @@
     }
   },
   {
+    "name": "Agent Campaign API",
+    "desc": "AgentCampaignAPI is a Django REST API for managing agents and campaigns, supporting CRUD operations, pagination, and tracking of outcomes, costs, and call details.",
+    "image": "agent",
+    "category": "django",
+    "links": {
+      "view": "https://agentcampaignapi.onrender.com/",
+      "code": "https://github.com/tanujgupta18/AgentCampaignAPI"
+    }
+  },
+  {
     "name": "Weather Application",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "desc": "The Django Weather Application is a web tool that offers real-time weather conditions and forecasts for global locations, built with Django and integrated with a weather API.",
     "image": "weather",
     "category": "django",
     "links": {
@@ -111,18 +190,8 @@
     }
   },
   {
-    "name": "Banking System",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "banking",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Banking%20System"
-    }
-  },
-  {
     "name": "Digital Clock",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "desc": "This Python script creates a simple digital clock using the tkinter library.",
     "image": "digital_clock",
     "category": "python",
     "links": {
@@ -132,7 +201,7 @@
   },
   {
     "name": "Expense Tracker",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "This Python app tracks expenses, allowing users to add, edit, delete, and view expenses in words, using SQLite3 for the database and tkinter for the GUI.",
     "image": "Expense",
     "category": "python",
     "links": {
@@ -142,7 +211,7 @@
   },
   {
     "name": "Internet Speed Meter",
-    "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
+    "desc": "A simple Tkinter GUI application to check internet speed using the speedtest module.",
     "image": "Internet_speed",
     "category": "python",
     "links": {
@@ -152,7 +221,7 @@
   },
   {
     "name": "Blog Application",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
+    "desc": "",
     "image": "Blog",
     "category": "django",
     "links": {
@@ -161,33 +230,13 @@
     }
   },
   {
-    "name": "Number Guessing Game",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Number%20Guessing%20Game"
-    }
-  },
-  {
     "name": "Screen and Webcam Recorder",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "This Python script records your screen along with the webcam feed and saves it as a video file using OpenCV, NumPy, and PyAutoGUI.",
     "image": "",
     "category": "python",
     "links": {
       "view": "",
       "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Screen%20and%20Webcam%20Recorder"
-    }
-  },
-  {
-    "name": "Keyword Internal Linking",
-    "desc": "Developed Python script utilizing Google Custom Search Engine API to perform keyword searches on specified domain, fetching URLs and updating Google Sheets with results.",
-    "image": "",
-    "category": "scraping",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Keyword-Internal-Linking"
     }
   }
 ]
