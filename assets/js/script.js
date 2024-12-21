@@ -40,16 +40,14 @@ $(document).ready(function () {
 
     var formData = new FormData(document.getElementById("contact-form"));
     formData.append("reply_to", formData.get("email"));
-    // Initialize EmailJS with your User ID (public key)
-    emailjs.init("kj4A86eYx5r1BvimT"); // This is your public key
+    emailjs.init("kj4A86eYx5r1BvimT"); // public key
 
-    // Send the form data using EmailJS (use correct service ID and template ID)
     emailjs
       .sendForm("service_xny2z6j", "template_gjppg59", "#contact-form")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
-          document.getElementById("contact-form").reset(); // Reset the form
+          document.getElementById("contact-form").reset();
           alert("Form Submitted Successfully");
         },
         function (error) {
@@ -92,19 +90,34 @@ async function fetchData(type = "skills") {
 }
 
 fetch("skills.json")
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then((skills) => {
-    showSkills(skills);
+    if (Array.isArray(skills)) {
+      showSkills(skills);
+    }
+  })
+  .catch((error) => {
+    console.error("Error fetching skills:", error);
+    alert("Error loading skills data!");
   });
 
 function showSkills(skills) {
+  if (!Array.isArray(skills)) {
+    return;
+  }
+
   let skillsContainer = document.getElementById("skillsContainer");
   let skillHTML = "";
   skills.forEach((skill) => {
     skillHTML += `
       <div class="bar">
         <div class="info">
-          <img src=${skill.icon} alt="skill" />
+          <img src="${skill.icon}" alt="skill" />
           <span>${skill.name}</span>
         </div>
       </div>`;
