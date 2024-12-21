@@ -64,7 +64,13 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["Python development", "Django Developer", "ReactJs Developer"],
+  strings: [
+    "Python development",
+    "Django Development",
+    "React.js Development",
+    "Backend Development",
+    "Frontend Development",
+  ],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,

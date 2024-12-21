@@ -666,7 +666,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 35rem;
+  height: 30rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -697,11 +697,11 @@ header .navbar ul li a:hover {
   font-size: 2rem;
 }
 .work .box-container .box:hover .content {
-  top: 35%;
+  top: 37%;
   background-color: white;
 }
 .work .desc {
-  margin: 1.2rem;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
