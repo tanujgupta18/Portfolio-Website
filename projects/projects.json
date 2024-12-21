@@ -90,6 +90,16 @@
     }
   },
   {
+    "name": "Tic Tac Toe",
+    "desc": "A responsive Tic Tac Toe game built with React. Enjoy a classic two-player game with visual highlights for winning combinations and an easy reset feature.",
+    "image": "tictactoe",
+    "category": "react",
+    "links": {
+      "view": "https://tictactoe-appication.netlify.app/",
+      "code": "https://github.com/tanujgupta18/Tic-Tac-Toe-Game"
+    }
+  },
+  {
     "name": "Gas Utility Services",
     "desc": "The Gas Utility Services Web Application lets users submit complaints, track their status, and pay charges through generated invoices, requiring registration or login for access.",
     "image": "Gas",
