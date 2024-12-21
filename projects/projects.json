@@ -172,7 +172,7 @@
   {
     "name": "Agent Campaign API",
     "desc": "AgentCampaignAPI is a Django REST API for managing agents and campaigns, supporting CRUD operations, pagination, and tracking of outcomes, costs, and call details.",
-    "image": "agent",
+    "image": "",
     "category": "django",
     "links": {
       "view": "https://agentcampaignapi.onrender.com/",
