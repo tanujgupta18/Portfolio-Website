@@ -247,6 +247,7 @@ header .navbar ul li a:hover {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
+  color: #111; /* ensure readable text */
 }
 .experience .content .tag {
   font-size: 1.3rem;
@@ -448,3 +449,47 @@ header .navbar ul li a:hover {
   }
 }
 /* common media queries ends*/
+
+/* ===== Read More toggle (Experience) ===== */
+.experience .desc .more-text {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+  margin-top: 0.6rem;
+  color: #111;
+  text-transform: none;
+}
+.experience .desc .more-text.open {
+  max-height: 800px; /* enough space for bullets */
+  opacity: 1;
+}
+.experience .desc .more-text ul {
+  list-style: disc;
+  padding-left: 1.8rem;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+.experience .desc .read-more-btn {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: #2506ad;
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.2rem 0;
+  margin-top: 0.4rem;
+  text-transform: none;
+}
+.experience .desc .read-more-btn:hover,
+.experience .desc .read-more-btn:focus {
+  color: #1a047e;
+  text-decoration: underline;
+  outline: none;
+}
+@media (max-width: 600px) {
+  .experience .desc .read-more-btn {
+    font-size: 1.4rem;
+  }
+}

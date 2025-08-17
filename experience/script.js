@@ -46,3 +46,30 @@ document.onkeydown = function (e) {
     return false;
   }
 };
+
+/* ===== Read More / Read Less (Experience) ===== */
+
+$(".experience").on("click", ".read-more-btn", function () {
+  const $btn = $(this);
+  const more = $btn.prev(".more-text")[0];
+
+  // if not open -> open
+  if (!more.classList.contains("open")) {
+    // set dynamic height for smooth animation
+    more.style.maxHeight = more.scrollHeight + "px";
+    more.classList.add("open");
+    $btn.text("Read Less").attr("aria-expanded", "true");
+  } else {
+    // close
+    more.style.maxHeight = 0;
+    more.classList.remove("open");
+    $btn.text("Read More").attr("aria-expanded", "false");
+  }
+});
+
+// keep height correct if window resizes while section is open
+$(window).on("resize", function () {
+  $(".more-text.open").each(function () {
+    this.style.maxHeight = this.scrollHeight + "px";
+  });
+});
