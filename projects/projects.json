@@ -1,12 +1,40 @@
 [
   {
+    "name": "HubProspect",
+    "desc": "Chrome extension that automates LinkedIn applicant data extraction and exports structured candidate details to Excel/CSV, saving hours of manual screening time.",
+    "image": "hubProspect",
+    "category": "javascript",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/hublink/lojcclojekmpcilbmmlkcilfgegiddcj"
+    }
+  },
+  {
+    "name": "Hotel Booking System",
+    "desc": "Full-stack booking platform with authentication, real-time availability, Stripe payments, email confirmations, and an admin dashboard for revenue tracking.",
+    "image": "hotelBooking",
+    "category": "mern",
+    "links": {
+      "view": "http://hotel-booking-frontend-tg.vercel.app/",
+      "code": "https://github.com/tanujgupta18/Hotel-Booking-App"
+    }
+  },
+  {
+    "name": "HubSpot Form Submissions Exporter",
+    "desc": "Developed an extension that converts HubSpot form submissions to PDFs with customizable exports.",
+    "image": "hubspot",
+    "category": "javascript",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/hubspot-form-submissions/pjiocddnjdodoecdgdmpfhighlbanfjp",
+      "code": ""
+    }
+  },
+  {
     "name": "LinkedIn Data Export",
     "desc": "Created a Chrome Extension that automates LinkedIn job applications, captures applicant details, and enables easy export to Excel/CSV.",
     "image": "linkedIn",
     "category": "javascript",
     "links": {
-      "view": "https://chromewebstore.google.com/detail/linkedin-data-export/lhbfmcaikiojaojldlkkmfdieaakapgd",
-      "code": ""
+      "view": "https://chromewebstore.google.com/detail/linkedin-data-export/lhbfmcaikiojaojldlkkmfdieaakapgd"
     }
   },
   {
@@ -20,13 +48,22 @@
     }
   },
   {
-    "name": "HubSpot Forms Exporter",
-    "desc": "Developed an extension that converts HubSpot form submissions to PDFs with customizable exports.",
-    "image": "hubspot",
-    "category": "javascript",
+    "name": "Employee Management System",
+    "desc": "React-based employee management dashboard with CRUD operations for handling employee records, attendance, and organizational data with a clean admin interface.",
+    "image": "ems",
+    "category": "react",
     "links": {
-      "view": "https://chromewebstore.google.com/detail/hubspot-form-submissions/pjiocddnjdodoecdgdmpfhighlbanfjp",
-      "code": ""
+      "code": "https://github.com/tanujgupta18/Employee-Management-System"
+    }
+  },
+  {
+    "name": "SiteToSheet",
+    "desc": "SiteToSheet is a Python Flask app that fetches indexed URLs from a website using the Google Custom Search API and saves them to Google Sheets securely.",
+    "image": "siteToSearch",
+    "category": "python",
+    "links": {
+      "view": "https://sitetosheet.onrender.com/",
+      "code": "https://github.com/tanujgupta18/SiteToSheet"
     }
   },
   {
@@ -49,16 +86,7 @@
       "code": "https://github.com/tanujgupta18/JavaScript-Projects"
     }
   },
-  {
-    "name": "SiteToSheet",
-    "desc": "SiteToSheet is a Python Flask app that fetches indexed URLs from a website using the Google Custom Search API and saves them to Google Sheets securely.",
-    "image": "siteToSearch",
-    "category": "python",
-    "links": {
-      "view": "https://sitetosheet.onrender.com/",
-      "code": "https://github.com/tanujgupta18/SiteToSheet"
-    }
-  },
+
   {
     "name": "Firebase Contact App",
     "desc": "Contact management app using React, Firebase, and Tailwind CSS with real-time contact addition, viewing, editing, and deletion.",
@@ -119,16 +147,7 @@
       "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/PDF%20Password%20Cracker"
     }
   },
-  {
-    "name": "Keyword Internal Linking",
-    "desc": "Developed Python script utilizing Google Custom Search Engine API to perform keyword searches on specified domain, fetching URLs and updating Google Sheets with results.",
-    "image": "",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Keyword-Internal-Linking"
-    }
-  },
+
   {
     "name": "QR Code Generator",
     "desc": "This Python script generates QR codes for a given URL using the qrcode library for QR code generation.",
@@ -179,36 +198,7 @@
       "code": "https://github.com/tanujgupta18/Employee-Management-System"
     }
   },
-  {
-    "name": "Agent Campaign API",
-    "desc": "AgentCampaignAPI is a Django REST API for managing agents and campaigns, supporting CRUD operations, pagination, and tracking of outcomes, costs, and call details.",
-    "image": "",
-    "category": "django",
-    "links": {
-      "view": "https://agentcampaignapi.onrender.com/",
-      "code": "https://github.com/tanujgupta18/AgentCampaignAPI"
-    }
-  },
-  {
-    "name": "Weather Application",
-    "desc": "The Django Weather Application is a web tool that offers real-time weather conditions and forecasts for global locations, built with Django and integrated with a weather API.",
-    "image": "weather",
-    "category": "django",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Weather-Detector"
-    }
-  },
-  {
-    "name": "Digital Clock",
-    "desc": "This Python script creates a simple digital clock using the tkinter library.",
-    "image": "digital_clock",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Digital%20Clock"
-    }
-  },
+
   {
     "name": "Expense Tracker",
     "desc": "This Python app tracks expenses, allowing users to add, edit, delete, and view expenses in words, using SQLite3 for the database and tkinter for the GUI.",
@@ -217,36 +207,6 @@
     "links": {
       "view": "",
       "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Expense%20Tracker"
-    }
-  },
-  {
-    "name": "Internet Speed Meter",
-    "desc": "A simple Tkinter GUI application to check internet speed using the speedtest module.",
-    "image": "Internet_speed",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Internet%20Speed%20Meter"
-    }
-  },
-  {
-    "name": "Blog Application",
-    "desc": "",
-    "image": "Blog",
-    "category": "django",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Blog-Application"
-    }
-  },
-  {
-    "name": "Screen and Webcam Recorder",
-    "desc": "This Python script records your screen along with the webcam feed and saves it as a video file using OpenCV, NumPy, and PyAutoGUI.",
-    "image": "",
-    "category": "python",
-    "links": {
-      "view": "",
-      "code": "https://github.com/tanujgupta18/Python-Projects/tree/main/Screen%20and%20Webcam%20Recorder"
     }
   }
 ]

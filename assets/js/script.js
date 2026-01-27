@@ -30,7 +30,7 @@ $(document).ready(function () {
         scrollTop: $($(this).attr("href")).offset().top,
       },
       500,
-      "linear"
+      "linear",
     );
   });
 
@@ -53,7 +53,7 @@ $(document).ready(function () {
         function (error) {
           console.log("FAILED...", error);
           alert("Form Submission Failed! Try Again");
-        }
+        },
       );
   });
 
@@ -63,11 +63,11 @@ $(document).ready(function () {
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
   strings: [
-    "Python development",
-    "Django Development",
-    "React.js Development",
-    "Backend Development",
-    "Frontend Development",
+    "Full-Stack Development",
+    "MERN Stack Applications",
+    "Chrome Extension Development",
+    "Automation & Web Scraping",
+    "Python & Django",
   ],
   loop: true,
   typeSpeed: 50,
