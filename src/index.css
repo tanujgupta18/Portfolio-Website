@@ -17,3 +17,17 @@ body {
   background: #2b3dda;
   color: white;
 }
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(235, 202, 245);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #420177;
+}
