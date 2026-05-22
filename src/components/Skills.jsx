@@ -6,31 +6,33 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="bg-gradient-to-b from-[#57059e] to-[#4a00e0] px-[10%] py-24"
+      className="bg-[#07143f] px-[6%] md:px-[10%] py-20 md:py-24"
     >
       {/* Heading */}
-
-      <h2 className="flex items-center justify-center gap-4 text-center text-[4rem] font-extrabold text-white">
+      <h2 className="flex items-center justify-center gap-3 text-center text-[2.6rem] md:text-[4rem] font-bold text-white">
         <FaLaptopCode />
         Skills &<span className="text-[#ffe600]">Abilities</span>
       </h2>
 
-      {/* Container */}
+      <p className="mt-5 text-center text-[1.4rem] md:text-[1.6rem] text-[#d4dbf5]">
+        Technologies and tools I use to build scalable products.
+      </p>
 
-      <div className="mt-16 rounded-3xl bg-[rgba(0,0,22,0.35)] p-8">
+      {/* Container */}
+      <div className="mt-16">
         <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
           {skills.map((skill) => (
             <div
               key={skill.name}
-              className="rounded-[1.4rem] bg-[#09011b] p-8 text-center transition-all duration-300 hover:scale-[1.05]"
+              className="rounded-4xl border border-[#2f4db5] bg-[#11256de3] p-8 text-center shadow-[0_10px_25px_rgba(0,0,0,0.18)] transition-all duration-300 hover:-translate-y-2 hover:border-[#4c74ff] hover:bg-[#18338f] hover:shadow-[0_18px_45px_rgba(34,90,255,0.18)]"
             >
               <img
                 src={skill.icon}
                 alt={skill.name}
-                className="mx-auto h-[60px] w-[60px] object-contain"
+                className="mx-auto h-[50px] w-[50px] md:h-[58px] md:w-[58px] object-contain"
               />
 
-              <h3 className="mt-6 text-[2rem] font-medium text-white">
+              <h3 className="mt-6 text-[1.7rem] font-medium text-white">
                 {skill.name}
               </h3>
             </div>
