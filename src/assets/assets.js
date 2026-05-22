@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import hero from "./hero.png";
+import contact from "./contact.png";
 
 // Projects
 import hubProspect from "./projects/hubProspect.webp";
@@ -19,6 +20,7 @@ import employee from "./projects/employee.webp";
 export const assets = {
   logo,
   hero,
+  contact,
 
   hubProspect,
   hotelBooking,
