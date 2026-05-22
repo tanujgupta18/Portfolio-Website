@@ -69,34 +69,38 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-wrap items-center px-[10%]"
+      className="relative flex min-h-screen flex-wrap items-center px-[6%] md:px-[10%] pt-[10rem] pb-16"
     >
       {/* Left */}
-      <div className="flex-[1_1_40rem] z-10 flex flex-col items-start gap-8">
+      <div className="z-10 flex flex-[1_1_40rem] flex-col items-center gap-8 text-center md:items-start md:text-left">
         <h2 className="text-[3.6rem] md:text-[5rem] font-extrabold text-[#002057] leading-tight">
           Hi There,
           <br />
           I'm Tanuj <span className="text-[#ff7b00]">Gupta</span>
         </h2>
 
-        <p className="text-[2rem] md:text-[2.5rem] font-semibold">
+        <p className="text-[1.8rem] md:text-[2.5rem] font-semibold">
           I Am Into <span ref={typedRef} className="text-[rgb(148,8,8)]" />
         </p>
 
-        <a
-          href="#about"
-          className="inline-flex w-fit items-center gap-3 rounded-full text-white bg-[#2506ad] px-10 md:px-12 py-[1.3rem] md:py-[1.6rem]"
+        <button
+          onClick={() =>
+            document.getElementById("about")?.scrollIntoView({
+              behavior: "instant",
+            })
+          }
+          className="inline-flex w-fit items-center gap-3 rounded-full bg-[#2506ad] px-8 md:px-10 py-[1.3rem] md:py-[1.4rem] text-white transition-all duration-300 hover:-translate-y-1 hover:bg-[#1c0488] cursor-pointer"
         >
           <span className="text-[1.5rem] md:text-[1.7rem] font-semibold">
             About Me
           </span>
 
           <FaArrowCircleDown className="text-[1.5rem]" />
-        </a>
+        </button>
 
         {/* Social Links */}
         <div>
-          <ul className="flex gap-3.5">
+          <ul className="flex flex-wrap justify-center gap-3.5 md:justify-start">
             {socialLinks.map(({ icon: Icon, link, hover }, index) => (
               <li key={index}>
                 <a
@@ -119,7 +123,7 @@ const Hero = () => {
           src={assets.hero}
           alt="hero"
           draggable={false}
-          className="mx-auto mt-10 w-[75%] md:ml-24 md:mt-0 md:w-[70%] rounded-full cursor-pointer shadow-[0_2px_8px_rgba(0,0,0,0.3)] hover:shadow-[0_5px_15px_rgba(0,0,0,0.5)] transition"
+          className="mx-auto mt-12 w-[75%] max-w-[340px] rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.25)] transition-all duration-300 hover:shadow-[0_8px_20px_rgba(0,0,0,0.35)] md:ml-24 md:mt-0 md:w-[70%] md:max-w-[500px]"
         />
       </div>
     </section>
