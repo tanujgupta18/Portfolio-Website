@@ -65,7 +65,11 @@ const Footer = () => {
         {/* Left */}
         <div>
           <div className="flex items-center gap-3">
-            <img src={assets.logo} alt="logo" className="w-[40px]" />
+            <img
+              src={assets.logo}
+              alt="logo"
+              className="w-[40px] brightness-0 invert opacity-95"
+            />
 
             <h2 className="text-[2.4rem] font-bold">Tanuj</h2>
           </div>
