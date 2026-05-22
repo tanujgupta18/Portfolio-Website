@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { assets } from "../assets/assets";
 
@@ -15,6 +16,32 @@ const navItems = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("Home");
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleNavigate = (href) => {
+    const sectionId = href.replace("#", "");
+
+    if (location.pathname !== "/") {
+      navigate("/");
+
+      setTimeout(() => {
+        document.getElementById(sectionId)?.scrollIntoView({
+          behavior: "smooth",
+        });
+      }, 100);
+
+      setOpen(false);
+
+      return;
+    }
+
+    document.getElementById(sectionId)?.scrollIntoView({
+      behavior: "smooth",
+    });
+
+    setOpen(false);
+  };
 
   useEffect(() => {
     const sections = [
@@ -49,8 +76,8 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-[1000] flex items-center justify-between h-[6.5rem] px-[10%] bg-white shadow-[0_1px_4px_rgba(146,161,176,0.3)]">
       {/* Logo */}
-      <a
-        href="/"
+      <button
+        onClick={() => navigate("/")}
         className="flex items-center gap-1 text-[2rem] font-extrabold text-[#0e2431] transition-all hover:text-[#fc8c05]"
       >
         <img
@@ -60,20 +87,14 @@ const Navbar = () => {
         />
 
         <span>Tanuj</span>
-      </a>
+      </button>
       {/* Desktop Navbar */}
       <nav className="hidden md:block">
         <ul className="flex items-center">
           {navItems.map((item) => (
             <li key={item.name} className="ml-10">
               <button
-                onClick={() =>
-                  document
-                    .getElementById(item.href.replace("#", ""))
-                    ?.scrollIntoView({
-                      behavior: "smooth",
-                    })
-                }
+                onClick={() => handleNavigate(item.href)}
                 className={`text-[1.6rem] font-semibold tracking-[0.04rem] cursor-pointer border-b-[3px] transition-[padding,color,border-color] duration-200 ease-out hover:text-[#011aff] hover:border-[#011aff] hover:pb-[5px] ${
                   activeSection === item.name
                     ? "text-[#011aff] border-[#011aff] pb-[5px]"
@@ -97,15 +118,7 @@ const Navbar = () => {
           {navItems.map((item) => (
             <li key={item.name}>
               <button
-                onClick={() => {
-                  document
-                    .getElementById(item.href.replace("#", ""))
-                    ?.scrollIntoView({
-                      behavior: "smooth",
-                    });
-
-                  setOpen(false);
-                }}
+                onClick={() => handleNavigate(item.href)}
                 className={`block rounded-lg px-5 py-4 text-[2rem] cursor-pointer border-l-[5px] transition-[padding,color,border-color] duration-200 ease-out hover:text-[#011aff] hover:border-[#011aff] hover:pl-8 ${
                   activeSection === item.name
                     ? "text-[#011aff] border-[#011aff] pl-8"

@@ -48,21 +48,21 @@
     }
   },
   {
+    "title": "Car Rental App",
+    "description": "Full-stack car rental platform that enables users to browse vehicles, check availability, manage bookings, and complete rentals through a responsive and modern user experience.",
+    "image": "carRental",
+    "links": {
+      "view": "https://car-rental-application-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/car-rental-app"
+    }
+  },
+  {
     "title": "Fashion Website Scraper",
     "description": "Developed a Django scraper for extracting images, prices, and descriptions from fashion websites.",
     "image": "fashionScaper",
     "links": {
       "view": "https://fashionwebsitescraper.pythonanywhere.com",
       "code": "https://github.com/tanujgupta18/Fashion-Website-Scraper"
-    }
-  },
-  {
-    "title": "Car Rental App",
-    "description": "Full-stack car rental platform that enables users to browse vehicles, check availability, manage bookings, and complete rentals through a responsive and modern user experience.",
-    "image": "carRental",
-    "links": {
-      "view": "https://car-rental-app-flame.vercel.app/",
-      "code": "https://github.com/tanujgupta18/car-rental-app"
     }
   },
   {
