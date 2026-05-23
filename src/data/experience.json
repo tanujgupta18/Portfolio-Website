@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Xelron AI",
+    "role": "Software Engineer Intern",
+    "location": "Bengaluru, Karnataka",
+    "duration": "June 2025 - July 2025",
+
+    "description": [
+      "Developed and deployed responsive web interfaces using React.js and Tailwind CSS, improving page usability and UI consistency across 5+ client-facing modules.",
+
+      "Built and optimized SaaS spend analytics dashboards using Node.js and Express, reducing manual processing effort by 40–50% and accelerating reporting workflows.",
+
+      "Designed and developed a document verification tool using Python (Flask), improving validation accuracy and reducing processing turn around by 30%."
+    ],
+
+    "tech": [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Python",
+      "Flask"
+    ]
+  },
+
+  {
+    "company": "Grorapid Labs Pvt. Ltd.",
+    "role": "Software Developer Intern",
+    "location": "Gurugram, Haryana",
+    "duration": "August 2023 - July 2024",
+
+    "description": [
+      "Engineered Python-based scraping and data pipelines integrated with getcompass.ai, improving keyword search accuracy and reducing query time.",
+
+      "Developed and optimized REST APIs, server-side logic, and database schemas in Django, increasing backend scalability and retrieval performance.",
+
+      "Enhanced Django REST Framework performance, reducing latency and improving responsiveness under higher workloads.",
+
+      "Built responsive Shopify UI components using JavaScript and Liquid, improving user engagement and storefront usability."
+    ],
+
+    "tech": ["Python", "Django", "Shopify", "JavaScript", "Automation"]
+  }
+]

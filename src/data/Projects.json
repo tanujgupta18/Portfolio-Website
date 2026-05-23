@@ -1,0 +1,122 @@
+[
+  {
+    "title": "HubProspect",
+    "featured": true,
+    "description": "Developed a Chrome extension to sync LinkedIn profiles, companies, and tasks directly into HubSpot CRM. Implemented property mapping and multi-account support, reducing manual CRM updates by ~70%.",
+    "image": "hubProspect",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/hublink/lojcclojekmpcilbmmlkcilfgegiddcj"
+    }
+  },
+  {
+    "title": "Hotel Booking System",
+    "featured": true,
+    "description": "Full-stack booking platform with authentication, real-time availability, Stripe payments, email confirmations, and an admin dashboard for revenue tracking.",
+    "image": "hotelBooking",
+    "links": {
+      "view": "http://hotel-booking-frontend-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/Hotel-Booking-App"
+    }
+  },
+  {
+    "title": "HubSpot Form Submissions Exporter",
+    "featured": true,
+    "description": "Developed an extension that converts HubSpot form submissions to PDFs with customizable exports.",
+    "image": "hubspotForms",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/hubspot-form-submissions/pjiocddnjdodoecdgdmpfhighlbanfjp",
+      "code": ""
+    }
+  },
+  {
+    "title": "LinkedIn Data Export",
+    "featured": true,
+    "description": "Created a Chrome Extension that automates LinkedIn job applications, captures applicant details, and enables easy export to Excel/CSV.",
+    "image": "linkedInData",
+    "links": {
+      "view": "https://chromewebstore.google.com/detail/linkedin-data-export/lhbfmcaikiojaojldlkkmfdieaakapgd"
+    }
+  },
+  {
+    "title": "Doctor Appointment Booking System",
+    "featured": true,
+    "description": "Full-stack Doctor Appointment Booking System with patient portal, admin dashboard, and REST APIs. Built using React (Vite + Tailwind) and Node.js/Express.",
+    "image": "doctorAppointment",
+    "links": {
+      "view": "https://prescripto-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/Doctor-Appointment-Booking-System"
+    }
+  },
+  {
+    "title": "Car Rental App",
+    "description": "Full-stack car rental platform that enables users to browse vehicles, check availability, manage bookings, and complete rentals through a responsive and modern user experience.",
+    "image": "carRental",
+    "links": {
+      "view": "https://car-rental-application-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/car-rental-app"
+    }
+  },
+  {
+    "title": "Fashion Website Scraper",
+    "description": "Developed a Django scraper for extracting images, prices, and descriptions from fashion websites.",
+    "image": "fashionScaper",
+    "links": {
+      "view": "https://fashionwebsitescraper.pythonanywhere.com",
+      "code": "https://github.com/tanujgupta18/Fashion-Website-Scraper"
+    }
+  },
+  {
+    "title": "Employee Management System",
+    "description": "React-based employee management dashboard with CRUD operations for handling employee records, attendance, and organizational data with a clean admin interface.",
+    "image": "ems",
+    "links": {
+      "code": "https://github.com/tanujgupta18/Employee-Management-System"
+    }
+  },
+  {
+    "title": "SiteToSheet",
+    "featured": true,
+    "description": "SiteToSheet is a Python Flask app that fetches indexed URLs from a website using the Google Custom Search API and saves them to Google Sheets securely.",
+    "image": "siteToSearch",
+    "links": {
+      "view": "https://sitetosheet.onrender.com",
+      "code": "https://github.com/tanujgupta18/SiteToSheet"
+    }
+  },
+  {
+    "title": "Spotify Player Clone",
+    "description": "Spotify clone using React and Tailwind CSS for music streaming.",
+    "image": "spotifyClone",
+    "links": {
+      "view": "https://spotifyapplication.netlify.app",
+      "code": "https://github.com/tanujgupta18/Spotify-Player-Clone"
+    }
+  },
+  {
+    "title": "Gas Utility Services",
+    "description": "The Gas Utility Services Web Application lets users submit complaints, track their status, and pay charges through generated invoices, requiring registration or login for access.",
+    "image": "gas",
+    "links": {
+      "view": "https://tanujgupta.pythonanywhere.com",
+      "code": "https://github.com/tanujgupta18/Gas-Utility-Services"
+    }
+  },
+  {
+    "title": "User Authentication",
+    "description": "This project is a Django application focused on user authentication, providing secure registration, login, logout, and password reset functionality.",
+    "image": "userAuth",
+    "links": {
+      "view": "https://tanuj123.pythonanywhere.com",
+      "code": "https://github.com/tanujgupta18/User-Authentication"
+    }
+  },
+  {
+    "title": "Employee Management",
+    "description": "The Employee Management System is a Django-based web application that streamlines employee information management, including details, attendance, leaves, and more.",
+    "image": "employee",
+    "links": {
+      "view": "",
+      "code": "https://github.com/tanujgupta18/Employee-Management-System"
+    }
+  }
+]
