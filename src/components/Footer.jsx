@@ -25,7 +25,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: FaLinkedinIn,
-      link: "https://www.linkedin.com/in/tanuj--gupta/",
+      link: "https://www.linkedin.com/in/tanuj--gupta",
     },
 
     {
@@ -132,7 +132,7 @@ const Footer = () => {
               behavior: "smooth",
             })
           }
-          className="fixed bottom-8 right-8 flex h-[5.5rem] w-[5.5rem] items-center justify-center rounded-full bg-[#2506ad] text-[1.5rem] text-white shadow-[0_10px_30px_rgba(37,6,173,0.35)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.08] cursor-pointer"
+          className="fixed bottom-6 right-5 md:bottom-8 md:right-8 flex h-[4.8rem] w-[4.8rem] md:h-[5.5rem] md:w-[5.5rem] items-center justify-center rounded-full bg-[#2506ad] text-[1.4rem] md:text-[1.5rem] text-white shadow-[0_10px_30px_rgba(37,6,173,0.35)] transition-all duration-300 hover:-translate-y-1 hover:scale-[1.08] cursor-pointer"
         >
           <FaArrowUp />
         </button>
