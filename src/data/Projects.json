@@ -2,7 +2,7 @@
   {
     "title": "HubProspect",
     "featured": true,
-    "description": "Chrome extension that automates LinkedIn applicant data extraction and exports structured candidate details to Excel/CSV, saving hours of manual screening time.",
+    "description": "Developed a Chrome extension to sync LinkedIn profiles, companies, and tasks directly into HubSpot CRM. Implemented property mapping and multi-account support, reducing manual CRM updates by ~70%.",
     "image": "hubProspect",
     "links": {
       "view": "https://chromewebstore.google.com/detail/hublink/lojcclojekmpcilbmmlkcilfgegiddcj"

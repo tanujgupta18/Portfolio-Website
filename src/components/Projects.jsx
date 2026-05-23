@@ -1,5 +1,6 @@
 import projects from "../data/projects.json";
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 import {
   FaGithub,
   FaExternalLinkAlt,
@@ -10,9 +11,36 @@ import {
 const Projects = () => {
   const featuredProjects = projects.filter((project) => project.featured);
 
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.18,
+        delayChildren: 0.15,
+      },
+    },
+  };
+
+  const item = {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        duration: 0.7,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <section
+    <motion.section
       id="projects"
+      initial={{ opacity: 0, y: -100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.15 }}
+      transition={{ duration: 1.1 }}
       className="bg-[#000031] px-[6%] md:px-[10%] py-20 md:py-24"
     >
       {/* Heading */}
@@ -27,16 +55,23 @@ const Projects = () => {
         problem solving.
       </p>
 
-      <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <motion.div
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.15 }}
+        className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3"
+      >
         {featuredProjects.map((project) => (
-          <div
+          <motion.div
+            variants={item}
             key={project.title}
             className="overflow-hidden rounded-[1.8rem] bg-[#09011b] shadow-[0_8px_30px_rgba(0,0,0,0.28)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_16px_40px_rgba(0,0,0,0.35)]"
           >
             <img
               src={assets[project.image]}
               alt={project.title}
-              className="h-[220px] md:h-[240px] w-full object-cover"
+              className="h-[220px] md:h-[240px] w-full object-cover transition duration-[1200ms] hover:scale-[1.04]"
             />
 
             <div className="p-6 md:p-8">
@@ -71,9 +106,9 @@ const Projects = () => {
                 )}
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
 
       <div className="mt-16 md:mt-20 flex justify-center">
         <a
@@ -84,7 +119,7 @@ const Projects = () => {
           <FaArrowRight className="text-[1.4rem]" />
         </a>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

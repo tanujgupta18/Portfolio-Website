@@ -1,9 +1,14 @@
 import { HiArrowRight } from "react-icons/hi";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section
+    <motion.section
       id="about"
+      initial={{ opacity: 0, y: -80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.7 }}
       className="bg-[#e5ecfb] px-[6%] md:px-[10%] py-20 md:py-24"
     >
       <h2 className="text-center text-[2.8rem] md:text-[3.8rem] font-extrabold">
@@ -42,7 +47,9 @@ const About = () => {
           </p>
         </div>
 
-        <a
+        <motion.a
+          whileHover={{ scale: 1.03 }}
+          whileTap={{ scale: 0.98 }}
           href="https://drive.google.com/file/d/17RQKOoNQa-F0VWgrQB35QzsnnkmzGRQJ/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
@@ -53,9 +60,9 @@ const About = () => {
           </span>
 
           <HiArrowRight className="text-[1.8rem] md:text-[2rem] transition-transform duration-300 group-hover:translate-x-1" />
-        </a>
+        </motion.a>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

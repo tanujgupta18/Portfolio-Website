@@ -1,10 +1,38 @@
 import experience from "../data/experience.json";
 import { FaBriefcase, FaMapMarkerAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Experience = () => {
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.28,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const item = {
+    hidden: {
+      opacity: 0,
+    },
+    show: {
+      opacity: 1,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <section
+    <motion.section
       id="experience"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: false, amount: 0.15 }}
+      transition={{ duration: 0.9 }}
       className="px-[6%] md:px-[10%] py-18 md:py-24 bg-[#edf0fa]"
     >
       <h2 className="flex items-center justify-center gap-3 text-[2.8rem] md:text-[4rem] font-bold">
@@ -16,9 +44,16 @@ const Experience = () => {
         Turning ideas into real products through internships and development.
       </p>
 
-      <div className="mt-16 flex flex-col gap-10">
+      <motion.div
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.15 }}
+        className="mt-16 flex flex-col gap-10"
+      >
         {experience.slice(0, 2).map((exp, index) => (
-          <div
+          <motion.div
+            variants={item}
             key={index}
             className="rounded-[2.5rem] bg-white p-7 md:p-10 shadow-[0_5px_15px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_30px_rgba(0,0,0,0.12)]"
           >
@@ -65,9 +100,9 @@ const Experience = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
+      </motion.div>
       {experience.length > 2 && (
         <div className="mt-20 flex justify-center">
           <a
@@ -78,7 +113,7 @@ const Experience = () => {
           </a>
         </div>
       )}
-    </section>
+    </motion.section>
   );
 };
 

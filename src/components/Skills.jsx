@@ -1,11 +1,38 @@
 import React from "react";
+import { motion } from "framer-motion";
 import skills from "../data/skills.json";
 import { FaLaptopCode } from "react-icons/fa";
 
 const Skills = () => {
+  const container = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.06,
+        delayChildren: 0.15,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.7,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
-    <section
+    <motion.section
       id="skills"
+      initial={{ opacity: 0, y: -80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: false, amount: 0.15 }}
+      transition={{ duration: 0.7 }}
       className="bg-[#07143f] px-[6%] md:px-[10%] py-20 md:py-24"
     >
       {/* Heading */}
@@ -20,9 +47,16 @@ const Skills = () => {
 
       {/* Container */}
       <div className="mt-16">
-        <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
+        <motion.div
+          variants={container}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false }}
+          className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6"
+        >
           {skills.map((skill) => (
-            <div
+            <motion.div
+              variants={item}
               key={skill.name}
               className="rounded-4xl border border-[#2f4db5] bg-[#11256de3] p-8 text-center shadow-[0_10px_25px_rgba(0,0,0,0.18)] transition-all duration-300 hover:-translate-y-2 hover:border-[#4c74ff] hover:bg-[#18338f] hover:shadow-[0_18px_45px_rgba(34,90,255,0.18)]"
             >
@@ -35,11 +69,11 @@ const Skills = () => {
               <h3 className="mt-6 text-[1.7rem] font-medium text-white">
                 {skill.name}
               </h3>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
