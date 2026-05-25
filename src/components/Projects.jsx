@@ -7,6 +7,7 @@ import {
   FaCode,
   FaArrowRight,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const featuredProjects = projects.filter((project) => project.featured);
@@ -111,13 +112,14 @@ const Projects = () => {
       </motion.div>
 
       <div className="mt-16 md:mt-20 flex justify-center">
-        <a
-          href="/projects"
+        <Link
+          to="/projects"
+          onClick={() => window.scrollTo({ top: 0 })}
           className="inline-flex items-center gap-3 rounded-full bg-[#ffe600] px-8 md:px-12 py-4 md:py-5 text-[1.4rem] md:text-[1.6rem] font-bold text-black transition duration-300 hover:scale-[1.05]"
         >
           View All
           <FaArrowRight className="text-[1.4rem]" />
-        </a>
+        </Link>
       </div>
     </motion.section>
   );
