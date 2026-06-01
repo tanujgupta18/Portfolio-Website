@@ -40,7 +40,7 @@ const Projects = () => {
       id="projects"
       initial={{ opacity: 0, y: -100 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: false, amount: 0.15 }}
+      viewport={{ once: true, amount: 0.15 }}
       transition={{ duration: 1.1 }}
       className="bg-[#000031] px-[6%] md:px-[10%] py-20 md:py-24"
     >

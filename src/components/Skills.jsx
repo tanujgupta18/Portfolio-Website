@@ -15,7 +15,7 @@ const Skills = () => {
   };
 
   const item = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0, y: 30 },
     show: {
       opacity: 1,
       y: 0,
@@ -31,7 +31,7 @@ const Skills = () => {
       id="skills"
       initial={{ opacity: 0, y: -80 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: false, amount: 0.15 }}
+      viewport={{ once: true, amount: 0.15 }}
       transition={{ duration: 0.7 }}
       className="bg-[#07143f] px-[6%] md:px-[10%] py-20 md:py-24"
     >
