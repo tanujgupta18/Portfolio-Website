@@ -6,14 +6,14 @@ const Education = () => {
     {
       degree: "Bachelor of Technology in Computer Engineering",
       institute: "Bharati Vidyapeeth Deemed University, Pune",
-      duration: "2022 - Present",
-      status: "Pursuing",
+      duration: "Aug 2022 - Jun 2026",
+      status: "Completed",
     },
 
     {
       degree: "Higher Secondary Education (PCM)",
       institute: "Maharaja Agarsain Public School (CBSE)| New Delhi",
-      duration: "2020 - 2022",
+      duration: "Apr 2020 - Mar 2022",
       status: "Completed",
     },
   ];
