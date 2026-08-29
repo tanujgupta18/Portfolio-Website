@@ -1,6 +1,6 @@
-import logo from "./logo.png";
-import hero from "./hero.png";
-import contact from "./contact.png";
+import logo from "./logo.webp";
+import hero from "./hero.webp";
+import contact from "./contact.webp";
 
 // Projects
 import hubProspect from "./projects/hubProspect.webp";
@@ -8,6 +8,7 @@ import hotelBooking from "./projects/hotelBooking.webp";
 import hubspotForms from "./projects/hubspotForms.webp";
 import linkedInData from "./projects/linkedInData.webp";
 import doctorAppointment from "./projects/doctorAppointment.webp";
+import grocery from "./projects/grocery.webp";
 import fashionScaper from "./projects/fashionScaper.webp";
 import carRental from "./projects/carRental.webp";
 import ems from "./projects/ems.webp";
@@ -27,6 +28,7 @@ export const assets = {
   hubspotForms,
   linkedInData,
   doctorAppointment,
+  grocery,
   fashionScaper,
   carRental,
   ems,

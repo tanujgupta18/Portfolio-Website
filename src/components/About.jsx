@@ -25,14 +25,15 @@ const About = () => {
         </p>
 
         <p className="mt-8 text-[1.5rem] md:text-[1.6rem] leading-[2] text-[#444]">
-          Passionate Full Stack Developer focused on building scalable web
-          applications, automation workflows and modern user experiences.
+          Full Stack Developer passionate about building modern web
+          applications, automation tools, and practical digital solutions with
+          clean and user-focused interfaces.
         </p>
 
         <p className="mt-6 text-[1.5rem] md:text-[1.6rem] leading-[2] text-[#444]">
-          Experienced with React.js, MERN Stack, Django and Chrome Extension
-          Development. I enjoy creating products that combine clean UI with
-          practical engineering.
+          Experienced with React.js, TypeScript, Node.js, Django, PostgreSQL,
+          WordPress, and Chrome Extension Development. I enjoy turning ideas
+          into reliable, scalable, and easy-to-use products.
         </p>
 
         <div className="mt-10 flex flex-col gap-4">

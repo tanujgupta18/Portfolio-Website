@@ -9,13 +9,13 @@
     }
   },
   {
-    "title": "Hotel Booking System",
+    "title": "Doctor Appointment Booking System",
     "featured": true,
-    "description": "Full-stack booking platform with authentication, real-time availability, Stripe payments, email confirmations, and an admin dashboard for revenue tracking.",
-    "image": "hotelBooking",
+    "description": "Full-stack Doctor Appointment Booking System with patient portal, admin dashboard, and REST APIs. Built using React (Vite + Tailwind) and Node.js/Express.",
+    "image": "doctorAppointment",
     "links": {
-      "view": "http://hotel-booking-frontend-tg.vercel.app",
-      "code": "https://github.com/tanujgupta18/Hotel-Booking-App"
+      "view": "https://prescripto-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/Doctor-Appointment-Booking-System"
     }
   },
   {
@@ -38,13 +38,13 @@
     }
   },
   {
-    "title": "Doctor Appointment Booking System",
+    "title": "Hotel Booking System",
     "featured": true,
-    "description": "Full-stack Doctor Appointment Booking System with patient portal, admin dashboard, and REST APIs. Built using React (Vite + Tailwind) and Node.js/Express.",
-    "image": "doctorAppointment",
+    "description": "Full-stack booking platform with authentication, real-time availability, Stripe payments, email confirmations, and an admin dashboard for revenue tracking.",
+    "image": "hotelBooking",
     "links": {
-      "view": "https://prescripto-tg.vercel.app",
-      "code": "https://github.com/tanujgupta18/Doctor-Appointment-Booking-System"
+      "view": "http://hotel-booking-frontend-tg.vercel.app",
+      "code": "https://github.com/tanujgupta18/Hotel-Booking-App"
     }
   },
   {
@@ -74,8 +74,17 @@
     }
   },
   {
-    "title": "SiteToSheet",
+    "title": "Grocery Delivery App",
     "featured": true,
+    "description": "Full-stack grocery delivery platform with product browsing, cart, checkout, order tracking, and dedicated admin & delivery partner workflows.",
+    "image": "grocery",
+    "links": {
+      "view": "https://grocery-delivery-app-eight.vercel.app",
+      "code": "https://github.com/tanujgupta18/Grocery-Delivery-App"
+    }
+  },
+  {
+    "title": "SiteToSheet",
     "description": "SiteToSheet is a Python Flask app that fetches indexed URLs from a website using the Google Custom Search API and saves them to Google Sheets securely.",
     "image": "siteToSearch",
     "links": {
