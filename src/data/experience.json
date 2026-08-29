@@ -1,5 +1,20 @@
 [
   {
+    "company": "Grorapid Labs",
+    "role": "Full Stack Developer Intern",
+    "location": "Gurugram, Haryana",
+    "duration": "June 2026 - Present",
+
+    "description": [
+      "Developed Chrome Extensions to automate repetitive client workflows and improve efficiency.",
+
+      "Managed and optimized the EV Hair WordPress website, implementing responsive UI and performance improvements."
+    ],
+
+    "tech": ["TypeScript", "JavaScript", "Wordpress"]
+  },
+
+  {
     "company": "Xelron AI",
     "role": "Software Engineer Intern",
     "location": "Bengaluru, Karnataka",
